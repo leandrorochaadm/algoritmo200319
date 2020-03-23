@@ -33,11 +33,11 @@ namespace leandro200319
             double c2 = CalculaComissao(v2);
             double c3 = CalculaComissao(v3);
             Console.WriteLine(">>> Relatório <<<");
-            Console.WriteLine("O(A) corretor(a) {0}, vendeu R/$ {1}, e terá uma comissão de R/$ {2}", corretor1, v1.ToString("F2"), c1.ToString("F2"));
-            Console.WriteLine("O(A) corretor(a) {0}, vendeu R/$ {1}, e terá uma comissão de R/$ {2}", corretor2, v2.ToString("F2"), c2.ToString("F2"));
-            Console.WriteLine("O(A) corretor(a) {0}, vendeu R/$ {1}, e terá uma comissão de R/$ {2}", corretor3, v3.ToString("F2"), c3.ToString("F2"));
+            Console.WriteLine("O(A) corretor(a) {0}, vendeu R$ {1}, e terá uma comissão de R$ {2}", corretor1, v1.ToString("F2"), c1.ToString("F2"));
+            Console.WriteLine("O(A) corretor(a) {0}, vendeu R$ {1}, e terá uma comissão de R$ {2}", corretor2, v2.ToString("F2"), c2.ToString("F2"));
+            Console.WriteLine("O(A) corretor(a) {0}, vendeu R$ {1}, e terá uma comissão de R$ {2}", corretor3, v3.ToString("F2"), c3.ToString("F2"));
             Console.WriteLine("------------------------------------------------------------------------");
-            Console.WriteLine("Valor total de vendas foi R/$ {0} e o total de comissões foi R/$ {1}.", (v1+v2+v3).ToString("F2"), (c1+c2+c3).ToString("F2"));
+            Console.WriteLine("Valor total de vendas foi R$ {0} e o total de comissões foi R$ {1}.", (v1+v2+v3).ToString("F2"), (c1+c2+c3).ToString("F2"));
 
             /* 
             Console.WriteLine(v1);

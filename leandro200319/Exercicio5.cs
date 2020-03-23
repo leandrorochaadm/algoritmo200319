@@ -18,19 +18,19 @@ namespace leandro200319
                 Console.Write("A nota é ");
                 if (nota<=49)
                 {
-                    Console.Write("insufiente");
+                    Console.Write("insufiente\n");
                 }
                 else if (nota <= 64)
                 {
-                    Console.Write("regular");
+                    Console.Write("regular\n");
                 }
                 else if (nota <= 84)
                 {
-                    Console.Write("boa");
+                    Console.Write("boa\n");
                 }
                 else
                 {
-                    Console.Write("ótima");
+                    Console.Write("ótima\n");
                 }
             }
             else {
