@@ -33,7 +33,7 @@ namespace leandro200319
                         Exercicio4.Exe();
                         break;
                     case 5:
-                        //Exercicio5.Exe();
+                        Exercicio5.Exe();
                         break;
                     default: Console.WriteLine(">>> Número do exercício digitado inválido! <<< \n");
                         break;
