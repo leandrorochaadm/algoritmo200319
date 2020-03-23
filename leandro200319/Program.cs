@@ -24,10 +24,10 @@ namespace leandro200319
                         Exercicio1.Exe();
                         break;
                     case 2:
-                        Console.WriteLine("escolheu o exercício 2");
+                        Exercicio2.Exe();
                         break;
                     case 3:
-                        Console.WriteLine("escolheu o exercício 3");
+                        Exercicio3.Exe();
                         break;
                     default: Console.WriteLine(">>> Número do exercício digitado inválido <<< \n");
                         break;
