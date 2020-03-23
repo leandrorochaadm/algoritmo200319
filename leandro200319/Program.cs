@@ -29,7 +29,13 @@ namespace leandro200319
                     case 3:
                         Exercicio3.Exe();
                         break;
-                    default: Console.WriteLine(">>> Número do exercício digitado inválido <<< \n");
+                    case 4:
+                        Exercicio4.Exe();
+                        break;
+                    case 5:
+                        //Exercicio5.Exe();
+                        break;
+                    default: Console.WriteLine(">>> Número do exercício digitado inválido! <<< \n");
                         break;
                 }
             }
